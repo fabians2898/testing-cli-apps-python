@@ -8,8 +8,6 @@ Installing
 
 Install and update using:
 
-.. code-block:: text
-
     pip install -r requirements.txt
 
 
@@ -28,7 +26,6 @@ Running the tests
 
 For setting up the environment to run the tests go to test_search_word.py to place the files paths, for defect are setting this:
 
-.. code-block:: python
 
     # test_search_word.py
 
