@@ -8,15 +8,13 @@ Installing
 
 Install and update using:
 
-    pip install -r requirements.txt
+    $ pip install -r requirements.txt
 
 
 search_word.py
 --------------
 
 Run using above command:
-
-.. code-block:: text
 
     python search_word.py -f text_file_path
 
@@ -26,7 +24,6 @@ Running the tests
 
 For setting up the environment to run the tests go to test_search_word.py to place the files paths, for defect are setting this:
 
-
     # test_search_word.py
 
     APP_NAME = 'search_word.py' 
@@ -35,18 +32,12 @@ For setting up the environment to run the tests go to test_search_word.py to pla
 
 To run all the suite:
 
-.. code-block:: text
-
-    pytest -v
+    $ pytest -v
 
 To run only unit tests:
 
-.. code-block:: text
-
-    pytest -v -m unit
+    $ pytest -v -m unit
 
 To run only functional tests:
 
-.. code-block:: text
-
-    pytest -v -m functional
+    $ pytest -v -m functional
